@@ -258,7 +258,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 108
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -285,7 +285,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 2, z: -2.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -474,7 +474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &559699747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1717,16 +1717,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe5c4a81f241d12428e02e050bc0c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upArrow: {fileID: 1334797564}
-  downArrow: {fileID: 620899280}
-  leftArrow: {fileID: 680983803}
-  rightArrow: {fileID: 1395318724}
+  buttonPrefab: {fileID: 8091058314995823443, guid: e92b1e382f3022e4daadbe41a5588765, type: 3}
+  player: {fileID: 1956576671}
   skybox1: {fileID: 2100000, guid: 1c336ae5c33947b4bb27548163c98f7d, type: 2}
   skybox2: {fileID: 2100000, guid: a497a9544f4cf5746b140990f0e5b097, type: 2}
   skybox3: {fileID: 2100000, guid: 9a2323791946cb34190850df5f3c7075, type: 2}
   skybox4: {fileID: 2100000, guid: 67f2be72135dcae43bb351b89f31278f, type: 2}
-  skybox5: {fileID: 2100000, guid: 9a2323791946cb34190850df5f3c7075, type: 2}
-  skybox6: {fileID: 2100000, guid: 62c834cf7f8721c41bf7693fe593e377, type: 2}
+  skybox5: {fileID: 2100000, guid: 62c834cf7f8721c41bf7693fe593e377, type: 2}
+  skybox6: {fileID: 2100000, guid: d814348ef2687a942b35686a3703ef42, type: 2}
 --- !u!143 &1956576669
 CharacterController:
   m_ObjectHideFlags: 0
