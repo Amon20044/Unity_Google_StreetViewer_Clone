@@ -231,19 +231,9 @@ public class SkyboxChanger : MonoBehaviour
             Material selectedSkybox = skyboxes[currentFloor][currentSkyboxIndex];
 
             if (selectedSkybox != null)
-            {
-                // Use the SkyboxTransition script for smooth transitions
-                SkyboxTransition transition = GetComponent<SkyboxTransition>();
-                if (transition != null)
-                {
-                    transition.StartSkyboxTransition(selectedSkybox);
-                }
-                else
-                {
-                    // Fallback to direct assignment if the transition script is missing
-                    RenderSettings.skybox = selectedSkybox;
-                    DynamicGI.UpdateEnvironment();
-                }
+            {   
+                RenderSettings.skybox = selectedSkybox;
+                DynamicGI.UpdateEnvironment();   
             }
             else
             {
